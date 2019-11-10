@@ -1,0 +1,9 @@
+.inner-page {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgb(40, 40, 40);
+}
+
+.slider-item::before {
+  background-color: rgb(40, 40, 40);
+}
