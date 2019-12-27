@@ -10,4 +10,62 @@
 
 #t-owner {
   font-size: 1px;
+  color: rgb(40, 40, 40);
+}
+
+.site-footer {
+  padding: 1em;
+}
+
+.btn-primary {
+  background-color: rgb(40, 40, 40);
+  border-color: rgb(40, 40, 40);
+}
+
+.btn.btn-primary:hover {
+  background: rgb(75, 75, 75);
+  background-color: rgb(75, 75, 75);
+  border-color: rgb(80, 80, 80);
+}
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: rgb(95, 95, 95);
+  border-color: rgb(100, 100, 100);
+}
+.btn-primary:active {
+  background-color: rgb(95, 95, 95);
+  border-color: rgb(100, 100, 100);
+}
+
+.btn.btn-primary:focus {
+  background-color: rgb(110, 110, 110);
+  border-color: rgb(120, 120, 120);
+}
+
+.stock-img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.custom-icon {
+  color: black;
+  font-size: 1.5em;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.tech-desc {
+  margin-block-start: 3em;
+}
+
+.section {
+  padding: 3em 0;
 }
