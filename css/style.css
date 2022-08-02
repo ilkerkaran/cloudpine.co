@@ -10127,6 +10127,11 @@ header .search-form .form-control:-moz-placeholder {
   color: rgba(255, 255, 255, 0.4) !important;
 }
 
+.contact-form-contact-info {
+display: flex;
+justify-content:space-between
+}
+
 .contact-form-contact-info p {
   margin-bottom: 30px;
   font-size: 20px;
